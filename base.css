@@ -1,0 +1,440 @@
+ ----------------------------------------------
+  reset
+------------------------------------------------- 
+ {
+	margin 0px;
+	padding 0px;
+	-moz-box-sizing border-box;
+	box-sizing border-box;
+	font-family Helvetica, Tahoma, Geneva, sans-serif;
+	font-family Meiryo, Arial, Helvetica, sans-serif;
+	line-height 1.5em;
+	font-size 11.5px;
+	text-decoration none;
+}
+
+html, body {
+	wedth 100%;
+	height 100%;
+}
+
+#container {
+	width 100%;
+	height auto !important;
+	height 100%;
+	min-height 100%;
+	position relative;
+}
+
+ ----------------------------------------------
+  header
+------------------------------------------------- 
+#header {
+	background-color #FFFFFF;
+	width 100%;
+	height 120px;
+	position fixed;
+}
+
+#header hlogin {
+	width 100%;
+	height 40px;
+	font-size 15px;
+	font-weight normal;
+	color #000000;
+	text-align center;
+	padding-left 10px;
+	border-bottom 3px ridge;
+	display block;
+}
+
+#header hlogin a {
+	font-size 25px;
+	color #000000;
+	text-weight bold;
+	text-shadow 2px 2px 0 #D3D3D3;
+	text-shadow 2px -1px 0 #333, 2px -1px 2px #555, 2px -1px 4px #666;
+	text-decoration none;
+}
+
+#header hgroup {
+	width 100%;
+	height 40px;
+	font-size 15px;
+	font-weight normal;
+	color #000000;
+	padding-left 10px;
+	border-bottom 3px ridge;
+	display block;
+}
+
+#header hgroup a {
+	font-size 25px;
+	color #000000;
+	text-weight bold;
+	text-shadow 2px 2px 0 #D3D3D3;
+	text-shadow 2px -1px 0 #333, 2px -1px 2px #555, 2px -1px 4px #666;
+	text-decoration none;
+}
+
+#header menu {
+	width 100%;
+	height 50px;
+	padding-top 5px;
+	padding-left 10px;
+	list-style-type none;
+}
+
+#header menu li {
+	width 120px;
+	float left;
+	padding 0;
+	margin 0;
+	text-align center;
+}
+
+#header menu li a {
+	width auto;
+	color #FFF;
+	font-weight bold;
+	text-shadow0 -1px 0px #333,0 1px 0px #555;
+	padding 10px 0;
+	text-decoration none;
+	display block;
+	background #666;
+	background-image -moz-linear-gradient(top, #888 0%, #777 50%, #666 50%, #777 100%);
+	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0, #888), color-stop(0.50, #777), color-stop(0.50, #666), color-stop(1, #777));
+	border-left1px solid #444;
+	box-shadow 1px 0px 0px rgba(225,225,225,0.3) inset,
+				-1px 0px 0px rgba(225,225,225,0.3) inset,
+				 0px 1px 1px rgba(0,0,0,0.1) inset,
+				 0px -1px 1px rgba(0,0,0,0.3) inset,
+				 0px 1px 3px #666;
+}
+
+#header menu lifirst-child a {
+	border-radius5px 0 0 5px;
+	border-left0;
+	box-shadow-1px 0px 0px rgba(225,225,225,0.3) inset,
+				0px 1px 1px rgba(0,0,0,0.1) inset,
+				0px -1px 1px rgba(0,0,0,0.3) inset,
+				0px 1px 3px #666;
+}
+
+#header menu lilast-child a {
+	border-radius0 5px 5px 0;
+	box-shadow 1px 0px 0px rgba(225,225,225,0.3) inset,
+				0px 1px 1px rgba(0,0,0,0.1) inset,
+				0px -1px 1px rgba(0,0,0,0.3) inset,
+				0px 1px 3px #666;
+}
+
+#header menu li ahover {
+	background #555;
+	background-image -moz-linear-gradient(top, #555 0%, #444 50%, #333 50%, #444 100%);
+	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0, #555), color-stop(0.50, #444), color-stop(0.50, #333), color-stop(1, #444));
+	box-shadow 1px 0px 0px rgba(225,225,225,0) inset,
+				-1px 0px 0px rgba(225,225,225,0) inset,
+				0px 1px 1px rgba(0,0,0,0.1) inset,
+				0px -1px 1px rgba(0,0,0,0.3) inset,
+				0px 1px 3px #666;
+}
+
+#header h1 {
+	border-top 3px ridge;
+	border-bottom 3px ridge;
+	border-left 6px solid #D3D3D3;
+	padding-top 1px;
+	padding-bottom 1px;
+	padding-left 10px;
+	margin-bottom 10px;
+	font-size 16px;
+	text-shadow 2px 2px 0 #D3D3D3;
+}
+
+ ----------------------------------------------
+  body
+------------------------------------------------- 
+#main {
+	width 100%;
+	padding-top 120px;
+	
+	display -webkit-box;
+	display -moz-box;
+	display -o-box;
+	display box;
+	
+}
+
+ ----------------------------------------------
+  footer
+------------------------------------------------- 
+#footer {
+	background-color #FFFFFF;
+	width 100%;
+	height 40x;
+	position absolute;
+	bottom 0;
+	color #000000;
+	text-shadow 2px 2px 0 #D3D3D3;
+	text-align center;
+	padding-top 5px;
+	border-top 2px ridge;
+	border-bottom 3px ridge;
+}
+
+ ----------------------------------------------
+  login
+------------------------------------------------- 
+table.login {
+	width 300px;
+	height 100px;
+	border 1px #000000 solid;
+	border-collapse collapse;
+	cellpadding 5;
+	cellspacing 0;
+	margin-top 10px;
+	margin-bottom 40px;
+}
+.login th {
+	border 1px #000000 solid;
+	font-weight normal;
+}
+.login td {
+	border 1px #000000 solid;
+	font-weight normal;
+}
+
+ ----------------------------------------------
+  content
+------------------------------------------------- 
+a.none {
+	text-decoration none;
+}
+
+ul {
+	list-style none;
+}
+
+#content {
+	padding-top 1px;
+	padding-left 10px;
+	padding-bottom 40px;
+}
+
+#content h1 {
+	border-top 3px ridge;
+	border-bottom 3px ridge;
+	border-left 6px solid #D3D3D3;
+	padding-top 1px;
+	padding-bottom 1px;
+	padding-left 5px;
+	margin-bottom 10px;
+	font-size 16px;
+	text-shadow 2px 2px 0 #D3D3D3;
+}
+
+#content h2 {
+	background url(..imgicon_h2.png) no-repeat left center;
+	padding-top 2px;
+	padding-left 25px;
+	font-size 14px;
+	margin-bottom 5px;
+}
+
+#main input[type=submit] {
+	width 70px;
+	height 25px;
+	background-image -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #FFFFFF 50%, #DCDCDC 100%);
+	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(1, #DCDCDC));
+	border-radius 5px 5px 5px 5px;
+	box-shadow -0.5px 0px 0px rgba(225,225,225,0.3) inset,
+				 0px 0.5px 0.5px rgba(0,0,0,0.1) inset,
+				 0px -0.5px 0.5px rgba(0,0,0,0.3) inset,
+				 0px 0.5px 1px #666;
+	font-size 11.5px;
+	color #000000;
+	text-align center;
+	text-shadow 2px 2px 0 #DCDCDC;
+	text-decoration none;
+}
+
+#main input[type=submit]hover {
+	background -moz-linear-gradient(top, #FFF, #E1E1E1 1%, #E1E1E1 50%, #CFCFCF 99%, #CCC);
+	background -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #E1E1E1), color-stop(0.5, #E1E1E1), color-stop(0.99, #CFCFCF), to(#CCC));
+}
+
+.button01 {
+	width 120px;
+	height 25px;
+	background-image -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #FFFFFF 50%, #DCDCDC 100%);
+	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(1, #DCDCDC));
+	border-radius 5px 5px 5px 5px;
+	box-shadow -0.5px 0px 0px rgba(225,225,225,0.3) inset,
+				 0px 0.5px 0.5px rgba(0,0,0,0.1) inset,
+				 0px -0.5px 0.5px rgba(0,0,0,0.3) inset,
+				 0px 0.5px 1px #666;
+	font-size 11.5px;
+	color #000000;
+	text-align center;
+	 text-shadow 2px 2px 0 #DCDCDC; 
+	padding 5px 0;
+	margin-left 5px;
+	text-decoration none;
+	display inline-block;
+	_display inline;
+}
+
+.button02 {
+	width 40px;
+	height 25px;
+	background-image -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #FFFFFF 50%, #DCDCDC 100%);
+	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(1, #DCDCDC));
+	border-radius 5px 5px 5px 5px;
+	box-shadow -0.5px 0px 0px rgba(225,225,225,0.3) inset,
+				 0px 0.5px 0.5px rgba(0,0,0,0.1) inset,
+				 0px -0.5px 0.5px rgba(0,0,0,0.3) inset,
+				 0px 0.5px 1px #666;
+	font-size 11.5px;
+	color #000000;
+	text-align center;
+	 text-shadow 2px 2px 0 #DCDCDC; 
+	padding 5px 0;
+	text-decoration none;
+	display inline-block;
+	_display inline;
+}
+
+.button03 {
+	width 100px;
+	height 25px;
+	background-image -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #FFFFFF 50%, #DCDCDC 100%);
+	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(0.50, #FFFFFF), color-stop(1, #DCDCDC));
+	border-radius 5px 5px 5px 5px;
+	box-shadow -0.5px 0px 0px rgba(225,225,225,0.3) inset,
+				 0px 0.5px 0.5px rgba(0,0,0,0.1) inset,
+				 0px -0.5px 0.5px rgba(0,0,0,0.3) inset,
+				 0px 0.5px 1px #666;
+	font-size 11.5px;
+	color #000000;
+	text-align center;
+	 text-shadow 2px 2px 0 #DCDCDC; 
+	padding 5px 0;
+	text-decoration none;
+	display inline-block;
+	_display inline;
+}
+
+.button01hover {
+	background -moz-linear-gradient(top, #FFF, #E1E1E1 1%, #E1E1E1 50%, #CFCFCF 99%, #CCC);
+	background -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #E1E1E1), color-stop(0.5, #E1E1E1), color-stop(0.99, #CFCFCF), to(#CCC));
+}
+
+.button02hover {
+	background -moz-linear-gradient(top, #FFF, #E1E1E1 1%, #E1E1E1 50%, #CFCFCF 99%, #CCC);
+	background -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #E1E1E1), color-stop(0.5, #E1E1E1), color-stop(0.99, #CFCFCF), to(#CCC));
+}
+
+.button03hover {
+	background -moz-linear-gradient(top, #FFF, #E1E1E1 1%, #E1E1E1 50%, #CFCFCF 99%, #CCC);
+	background -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #E1E1E1), color-stop(0.5, #E1E1E1), color-stop(0.99, #CFCFCF), to(#CCC));
+}
+
+table.normal {
+	border 1px #000000 solid;
+	border-collapse collapse;
+	cellpadding 5;
+	cellspacing 0;
+	margin 0 0 10px 0;
+}
+.normal trhover {
+	background-color #FFFF00;
+}
+.normal th {
+	border 1px #000000 solid;
+	font-size 11.5px;
+	font-weight normal;
+	padding 3px 3px 3px 3px;
+	white-space nowrap;
+}
+.normal td {
+	border 1px #000000 solid;
+	font-size 11.5px;
+	font-weight normal;
+	padding 3px 3px 3px 3px;
+	white-space nowrap;
+}
+.normal td a {
+	text-decoration none;
+}
+
+table.calendar {
+	border 1px #000000 solid;
+	border-collapse collapse;
+	cellpadding 5;
+	cellspacing 0;
+	margin 0 0 10px 0;
+}
+.calendar trhover {
+	background-color #FFFF00;
+}
+.calendar th {
+	border 1px #000000 solid;
+	font-size 11.5px;
+	font-weight normal;
+	padding 3px 3px 3px 3px;
+	white-space nowrap;
+}
+.calendar td {
+	border 1px #000000 solid;
+	font-size 11.5px;
+	font-weight normal;
+	padding 3px 3px 3px 3px;
+	white-space nowrap;
+}
+.calendar td a {
+	text-decoration none;
+}
+
+table.regist {
+	border 1px #000000 solid;
+	border-collapse collapse;
+	cellpadding 5;
+	cellspacing 0;
+	margin 0 0 10px 0;
+}
+.regist trhover {
+	background-color #FFFF00;
+}
+.regist th {
+	border 1px #000000 solid;
+	font-size 11.5px;
+	font-weight normal;
+	text-align left;
+	padding 3px 3px 3px 3px;
+	white-space nowrap;
+}
+.regist td {
+	border 1px #000000 solid;
+	font-size 11.5px;
+	font-weight normal;
+	padding 3px 3px 3px 3px;
+	white-space nowrap;
+}
+input[type=text] {
+	padding 2px 2px 2px 2px;
+}
+input[type=password] {
+	padding 2px 2px 2px 2px;
+}
+textarea {
+	padding 2px 2px 2px 2px;
+}
+hr.mainspace {
+	border none;
+	border-top 1px dashed #D3D3D3;
+	height 1px;
+	margin-top 8px;
+	margin-bottom 8px;
+}
+
